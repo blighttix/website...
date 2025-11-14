@@ -1,0 +1,9 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    font-size-adjust: 20px;
+    cursor: url(SmoothArrow.cur) 16 16, auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
