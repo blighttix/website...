@@ -2,8 +2,16 @@ body {
     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
     font-size-adjust: 20px;
     cursor: url(SmoothArrow.cur) 16 16, auto;
+    border-left: 6px ridge;
+    border-right: 6px ridge;
+    margin: 5px;
+    padding: 5px;
 }
 
-h1, h2 {
+.normal {
+    text-align: left;
+}
+
+h1, h2, .center {
     text-align: center;
 }
