@@ -7,16 +7,25 @@ body {
     background-repeat: repeat;
     border-left: 10px dotted;
     border-right: 10px dotted;
-    margin: 50px;
+    margin: 100px;
 }
-.garf {margin: auto;}
 
-hr, h3, ul {
-    margin-right: 100px;
-    margin-left: 100px;}
+.garf {margin-left: 249px;}
 
+hr, h3, ul, img, .normal, p, table {
+    text-align: left;
+    margin-right: 150px;
+    margin-left: 150px;}
 
-h1, h2 {
+.right {text-align: right;
+    margin-right: 100px;}
 
-}
-}
+h1, h2, .center {text-align: center;}
+
+.pos {position: relative; top: 25px;}
+.pos1 {position: relative; left: 353px;}
+
+.art {position: relative; left: 210px;
+    width: 400px;}
+
+td {border: 2px ridge;}
