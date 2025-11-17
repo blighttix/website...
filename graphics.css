@@ -1,17 +1,22 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+    color: antiquewhite;
     font-size-adjust: 20px;
     cursor: url(SmoothArrow.cur) 16 16, auto;
-    border-left: 6px ridge;
-    border-right: 6px ridge;
-    margin: 5px;
-    padding: 5px;
+    background-image: url("background-tile.png");
+    background-repeat: repeat;
+    border-left: 10px dotted;
+    border-right: 10px dotted;
+    margin: 50px;
 }
+.garf {margin: auto;}
 
-.normal {
-    text-align: left;
+hr, h3, ul {
+    margin-right: 100px;
+    margin-left: 100px;}
+
+
+h1, h2 {
+
 }
-
-h1, h2, .center {
-    text-align: center;
 }
